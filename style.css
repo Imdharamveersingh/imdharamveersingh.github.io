@@ -152,10 +152,22 @@ nav ul li a:hover{
 }
 
 .right{
-
     flex:1;
     display:flex;
     justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.right::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:radial-gradient(circle,#00d4ff,transparent 70%);
+    filter:blur(90px);
+    opacity:.22;
+    z-index:-1;
 }
 
 .tag{
@@ -757,4 +769,23 @@ margin-top:80px;
     filter:blur(130px);
     opacity:.18;
     z-index:-1;
+}
+@keyframes floating{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+.profile-card{
+    animation:floating 4s ease-in-out infinite;
 }
