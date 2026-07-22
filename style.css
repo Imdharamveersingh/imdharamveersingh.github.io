@@ -56,42 +56,18 @@ nav{
     justify-content:space-between;
     align-items:center;
 
-    padding:25px 0;
+    padding:20px 30px;
 
     position:sticky;
-    top:0;
+    top:15px;
 
     z-index:999;
 
-    backdrop-filter:blur(18px);
-}
+    background:#0b1020;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
 
-.logo{
-
-    font-size:30px;
-    font-weight:800;
-    color:#fff;
-    letter-spacing:2px;
-}
-
-nav ul{
-
-    display:flex;
-    list-style:none;
-    gap:35px;
-}
-
-nav ul li a{
-
-    color:white;
-    text-decoration:none;
-    font-weight:500;
-    transition:.3s;
-}
-
-nav ul li a:hover{
-
-    color:#7f6fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 /* Buttons */
