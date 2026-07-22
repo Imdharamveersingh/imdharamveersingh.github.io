@@ -789,3 +789,244 @@ margin-top:80px;
 .profile-card{
     animation:floating 4s ease-in-out infinite;
 }
+/* ===============================
+   RESPONSIVE DESIGN
+================================== */
+
+@media (max-width:992px){
+
+nav{
+
+    width:95%;
+    padding:18px 0;
+
+}
+
+nav ul{
+
+    gap:18px;
+
+}
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    justify-content:center;
+
+    text-align:center;
+
+    gap:50px;
+
+    padding:60px 0;
+
+}
+
+.left,
+.right{
+
+    width:100%;
+
+}
+
+.hero h1{
+
+    font-size:54px;
+
+}
+
+.hero h2{
+
+    font-size:24px;
+
+}
+
+.hero p{
+
+    font-size:17px;
+
+    margin:auto auto 35px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.btn-outline{
+
+    margin-left:0;
+
+}
+
+.profile-card{
+
+    width:340px;
+
+    height:430px;
+
+}
+
+.right::before{
+
+    width:350px;
+
+    height:350px;
+
+}
+
+}
+
+
+
+@media (max-width:768px){
+
+.hero{
+
+    min-height:auto;
+
+}
+
+.hero h1{
+
+    font-size:42px;
+
+}
+
+.hero h2{
+
+    font-size:20px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.tag{
+
+    font-size:13px;
+
+}
+
+.profile-card{
+
+    width:290px;
+
+    height:370px;
+
+}
+
+.section-title h2{
+
+    font-size:36px;
+
+}
+
+.stats{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.skills-grid,
+
+.project-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.timeline-item{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.year{
+
+    width:100%;
+
+}
+
+.contact-card{
+
+    padding:30px;
+
+}
+
+}
+
+
+
+@media (max-width:480px){
+
+nav{
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+nav ul{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero{
+
+    padding-top:30px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+.profile-card{
+
+    width:250px;
+
+    height:320px;
+
+}
+
+.stats{
+
+    grid-template-columns:1fr;
+
+}
+
+.btn,
+
+.btn-outline{
+
+    width:100%;
+
+}
+
+}
